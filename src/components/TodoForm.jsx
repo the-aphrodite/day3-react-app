@@ -9,7 +9,7 @@ function TodoForm({addTodo}) {
         if (title.length === 0) return;
         addTodo(title, description);
         setTitle('');
-        setDescription
+        setDescription ('');
     }
 
 
@@ -34,4 +34,3 @@ function TodoForm({addTodo}) {
 }
 
 export default TodoForm
-
